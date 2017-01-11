@@ -73,6 +73,15 @@ header {
   width:986px;
 }
 
+.sub-header{
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  display: block;
+  height: 125px;
+  padding-bottom:.5%;
+  position: fixed;
+  width:986px;
+}
 .btn {
   border-right: 1px solid lightgrey;
   padding: 0 20px;
@@ -121,18 +130,42 @@ li {
   text-align: center;
 }
 
-/*----------------------------------------------------------------------------*/
+.sub-list {
+  border-top: 1px solid lightgrey;
+}
+
+.sub-list ul {
+
+  margin-left:1%;
+  margin-right:0;
+  padding-top: 11px;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+
+}
+
+.sub-list ul li {
+  font-size: 16px;
+}
 
 /* home page */
 
 .thumbnail {
+  height: 300px; <!-- 300px -->
+}
+
+.volume-cover {
   height: 300px;
 }
 
+.top {
+  padding-top: 5%;
+}
 .container {
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 10%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -145,8 +178,20 @@ li {
   text-align: center;
   width: 200px;
   vertical-align: top;
-
 }
+
+/*--if i want to display 5 covers per line
+.one-fifth {
+    display: inline-block;
+    font-size: 9.9px;
+    font-style: italic;
+    margin: 25px 0 0 0;
+    padding: 18px 18px 0 18px;
+    text-align: center;
+    width: 150px;
+    vertical-align: top;
+  }
+--*/
 
 a {
   text-decoration: none;
